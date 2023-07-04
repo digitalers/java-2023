@@ -1,4 +1,4 @@
 package ar.digitalers.domain;
 
-public abstract class Persona {
+public class Persona {
 }
