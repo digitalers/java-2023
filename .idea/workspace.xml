@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b539087-6958-40eb-a06f-2c1a9330b52f" name="Changes" comment="" />
+    <list default="true" id="5b539087-6958-40eb-a06f-2c1a9330b52f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/UniversidadAPP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase08/UniversidadApp/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase08/UniversidadApp/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase08/UniversidadApp/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase08/UniversidadApp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clase08/UniversidadApp/.idea/runConfigurations.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,6 +33,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2RlZgAypwoZtVY8YRTg5hB3GjDt" />
   <component name="ProjectLevelVcsManager">
