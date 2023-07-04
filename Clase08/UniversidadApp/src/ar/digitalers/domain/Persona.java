@@ -1,4 +1,9 @@
 package ar.digitalers.domain;
 
-public class Persona {
+public abstract class Persona {
+  
+  String nombre;
+  String apellido;
+  String dni;
+  String correoElectronico;
 }
