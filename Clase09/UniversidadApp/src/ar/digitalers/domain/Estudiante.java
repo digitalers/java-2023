@@ -5,7 +5,7 @@ public class Estudiante extends Persona {
     private Carrera carrera;
     private float promedio;
     private float porcentajeAprobado;
-    private Date FechaIngreso;
+    private LocalDate FechaIngreso;
     private String universidad;
     private String estado;
 
