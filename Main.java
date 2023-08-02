@@ -107,7 +107,7 @@ public class Main {
 
                 System.out.println(estudiantes);
             } else if (opcion == 2){
-                //System.out.println(estudiantes);
+                System.out.println(estudiantes);
                 System.out.println("PARA MATRICULAR EL ESTUDIANTE DEBE ESTAR DADO DE ALTA CON LA OPCION 1");
                 System.out.print("Ingrese el id del estudiante a matricular: ");
                 int id =Integer.parseInt(scanner.next());
@@ -153,14 +153,14 @@ public class Main {
 
             } else if (opcion == 3) {
                 System.out.println("SE MUESTRAN LO DATOS PRINCIPALES DE LOS ESTUDIANTES");
-                System.out.println("======================================================================================================================");
+                System.out.println("=".repeat(150));
                 System.out.println(estudiantes);
-                System.out.println("======================================================================================================================");
-
+                System.out.println("=".repeat(150));
 
             } else if (opcion == 4) {
                 //MODIFICACION DE LA DIRECCION DEL ESTUDIANTE A MODO DE EJEMPLO, SE PODRÍA EXTENDER PARA MODIFICAR MAS CAMPOS
-                System.out.print("Ingrese el id del estudiante a eliminar: ");
+                System.out.println(estudiantes);
+                System.out.print("Ingrese el id del estudiante a modificar: ");
                 int id =Integer.parseInt(scanner.next());
                 for (Estudiante estudiante:estudiantes){
                     if(estudiante.getIdEstudiante() == id){
@@ -174,6 +174,7 @@ public class Main {
 
             } else if (opcion == 5) {
                 //BAJA LOGICA DEL ESTUDIANTE
+                System.out.println(estudiantes);
                 System.out.print("Ingrese el id del estudiante que desea eliminar: ");
                 int id =Integer.parseInt(scanner.next());
                 for (Estudiante estudiante:estudiantes) {

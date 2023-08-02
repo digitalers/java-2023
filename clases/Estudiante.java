@@ -2,7 +2,7 @@ package clases;
 
 import java.util.Date;
 
-public class Estudiante extends Persona{
+public class Estudiante extends Persona {
     private int idEstudiante;
     private Carrera carrera;
     private String universidad;
@@ -13,7 +13,7 @@ public class Estudiante extends Persona{
 
     private boolean activo;
 
-    public Estudiante(){
+    public Estudiante() {
 
     }
 
@@ -105,6 +105,8 @@ public class Estudiante extends Persona{
                     ", carrera: " + carrera.getNombre() +
                     ", universidad: '" + universidad + '\'' +
                     ", promedio: " + promedio +
+                     '\n' +
+                    "-".repeat(150)+
                     '\n';
         }
         else {
@@ -112,4 +114,9 @@ public class Estudiante extends Persona{
         }
 
     }
+
+
+
+
 }
+
